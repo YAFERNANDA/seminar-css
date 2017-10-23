@@ -1,0 +1,9 @@
+body {
+  font-family: monospace;
+  }
+
+  /*especificidad : valores
+  s. etiqueta = 1
+  s. clase = 10
+  s. id = 100
+ *los seudoclases trabajan como clase**/
