@@ -1,9 +1,46 @@
-body {
-  font-family: monospace;
-  }
+/*setear nuestros archivos*/
+body{
+  box-sizing: border-box;
+  color:#303030;
+  font-family: 'Raleway', sans-serif;
+  margin:0;
+  padding: 0;
+}
+/*clase reutilizables*/
+.text-uppercase{
+  text-transform: uppercase;
+}
 
-  /*especificidad : valores
-  s. etiqueta = 1
-  s. clase = 10
-  s. id = 100
- *los seudoclases trabajan como clase**/
+.box-header{
+  display:inline-block;
+}
+
+/*clases especificas*/
+
+.logo-header{
+  width:200px;
+}
+li{
+  display:inline;
+  list-style: none;
+}
+li a{
+  color:inherit;
+  text-decoration: none;
+}
+header{
+  position:relative;
+}
+nav{
+  position: absolute;
+  right:5%;
+  top:50%;
+  transform:translateY(-50%);
+}
+section{
+  text-align: center;
+}
+div{
+  display:inline-block;
+  width:33%
+}
